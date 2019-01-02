@@ -2,9 +2,31 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Test",
+            "request": "launch",
+            "mainClass": "com.wz.test.worktest.Test",
+            "projectName": "Java8Test_212e536"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - StringUtils",
             "request": "launch",
-            "mainClass": "com.wz.test.StringUtils"
+            "mainClass": "com.wz.utils.StringUtils",
+            "projectName": "Java8Test_212e536"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Test01",
+            "request": "launch",
+            "mainClass": "com.core.java.day01.Test01",
+            "projectName": "Java8Test_212e536"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StringUtils",
+            "request": "launch",
+            "mainClass": "StringUtils",
+            "projectName": "Java8Test_212e536"
         }
     ]
 }
